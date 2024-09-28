@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.codebridge" />
+                  <option name="mobileSdkAppId" value="1:13854950908:android:7d546cb6eb50bf27fa9e79" />
+                  <option name="projectId" value="codebridge-5c554" />
+                  <option name="projectNumber" value="13854950908" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
