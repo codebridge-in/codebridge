@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "13854950908",
+    "project_id": "codebridge-5c554",
+    "storage_bucket": "codebridge-5c554.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13854950908:android:7d546cb6eb50bf27fa9e79",
+        "android_client_info": {
+          "package_name": "com.codebridge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13854950908-g9isducscuktu3o8eh6h15a1adop0e9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIm1LJclE5-j6ECFs8VGOL3wRrug18Kb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13854950908-g9isducscuktu3o8eh6h15a1adop0e9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
