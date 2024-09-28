@@ -17,4 +17,5 @@
     <color name="surface">#000000</color> <!-- Surface color for dark mode -->
     <color name="background">#121212</color> <!-- General background color for dark mode -->
     <color name="error">#B00020</color> <!-- Color for error messages or indicators -->
+    <color name="activeIndicatorColor">#FF4081</color> <!-- Active indicator color -->
 </resources>

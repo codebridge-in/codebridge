@@ -17,6 +17,7 @@
     <color name="gray">#989898</color> <!-- General gray -->
     <color name="darkGray">#606060</color> <!-- Dark gray for contrast -->
     <color name="lightGray">#D3D3D3</color> <!-- Light gray for backgrounds -->
+    <color name="btnlightGray">#41FFFFFF</color>
 
     <!-- Accent colors -->
     <color name="accent">#FF4081</color> <!-- An accent color for buttons or highlights -->
@@ -25,4 +26,5 @@
     <!-- Surface and Background colors -->
     <color name="surface">#FFFFFF</color> <!-- Surface color for light mode -->
     <color name="background">#F5F5F5</color> <!-- General background color for light mode -->
+    <color name="activeIndicatorColor">#FF4081</color> <!-- Active indicator color -->
 </resources>

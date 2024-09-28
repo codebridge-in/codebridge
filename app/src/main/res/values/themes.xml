@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Base theme for light mode -->
     <style name="Base.Theme.Codebridge" parent="Theme.Material3.DayNight.NoActionBar">
@@ -10,10 +11,14 @@
         <item name="colorSecondaryContainer">@color/secondaryVariant</item>
 
         <!-- Surface and background colors -->
-        <item name="colorSurface">@color/surface</item> <!-- Surface color for light mode -->
-        <item name="android:colorBackground">@color/background</item> <!-- Background color for light mode -->
-        <item name="android:statusBarColor">@color/primary</item> <!-- Status bar color for light mode -->
-        <item name="android:windowLightStatusBar">false</item> <!-- Light icons in status bar for light mode -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item> <!-- Light icons in status bar -->
+    </style>
+
+    <style name="App.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/btnlightGray</item>
     </style>
 
     <style name="Theme.Codebridge" parent="Base.Theme.Codebridge" />
