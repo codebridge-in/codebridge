@@ -57,4 +57,5 @@ dependencies {
     implementation (libs.firebase.firestore)
     implementation (libs.firebase.storage)
     implementation (libs.firebase.database)
+    implementation (libs.material.v190) 
 }
