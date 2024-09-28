@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core colors -->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#FFFFFFFF</color> <!-- Text color in dark mode -->
+    <color name="white">#FF000000</color> <!-- Background color in dark mode -->
+
+    <!-- Primary colors -->
+    <color name="primary">#8B0F2B</color> <!-- Darker variant for primary color -->
+    <color name="primaryVariant">#A41034</color> <!-- Main primary color -->
+
+    <!-- Secondary colors -->
+    <color name="secondary">#E5E5C3</color> <!-- Slightly darker secondary color -->
+    <color name="secondaryVariant">#F5F5DC</color> <!-- Secondary color -->
+
+    <!-- Surface and Background colors -->
+    <color name="surface">#000000</color> <!-- Surface color for dark mode -->
+    <color name="background">#121212</color> <!-- General background color for dark mode -->
+    <color name="error">#B00020</color> <!-- Color for error messages or indicators -->
+</resources>

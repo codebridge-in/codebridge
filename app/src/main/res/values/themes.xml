@@ -1,11 +1,20 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Codebridge" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base theme for light mode -->
+    <style name="Base.Theme.Codebridge" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primaryVariant</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryVariant</item>
+
+        <!-- Surface and background colors -->
+        <item name="colorSurface">@color/surface</item> <!-- Surface color for light mode -->
+        <item name="android:colorBackground">@color/background</item> <!-- Background color for light mode -->
+        <item name="android:statusBarColor">@color/primary</item> <!-- Status bar color for light mode -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Light icons in status bar for light mode -->
     </style>
-    <style name="App.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
-        <item name="android:color">@color/gray_btnBG</item>
-    </style>
+
     <style name="Theme.Codebridge" parent="Base.Theme.Codebridge" />
 </resources>

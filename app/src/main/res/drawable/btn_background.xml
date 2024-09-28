@@ -3,7 +3,7 @@
     android:shape="oval">
 
     <!-- Background color of the circle -->
-    <solid android:color="@color/gray_btnBG" />
+    <solid android:color="@color/lightGray" />
     <size
         android:width="30dp"
         android:height="30dp" />
