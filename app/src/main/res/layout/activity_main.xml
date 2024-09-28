@@ -29,17 +29,12 @@
             app:tint="@color/white" />
     </androidx.appcompat.widget.Toolbar>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="Code Bridge"
-        android:textColor="@color/whiteInDark"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -47,8 +42,8 @@
         android:layout_height="75dp"
         android:background="@color/primary"
         app:itemIconSize="24dp"
-        app:itemIconTint="@color/whiteInDark"
-        app:itemTextColor="@color/whiteInDark"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
         app:labelVisibilityMode="labeled"
         app:itemPaddingBottom="1dp"
         app:itemActiveIndicatorStyle="@style/App.custom.indicator"

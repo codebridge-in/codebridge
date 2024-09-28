@@ -7,11 +7,18 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.fragment.app.Fragment
 import com.codebridge.R
 import com.codebridge.databinding.ActivityMainBinding
+import com.codebridge.fragments.AssignmentFragment
+import com.codebridge.fragments.HomeFragment
+import com.codebridge.fragments.LecturesFragment
+import com.codebridge.fragments.NotesFragment
+import com.codebridge.fragments.TestFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+    private val TAG = MainActivity::class.java.simpleName
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         enableEdgeToEdge()
         updateStatusBarColor()
+        setupBottomNavigation()
+        replaceFragment(HomeFragment())  // Corrected
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -38,5 +47,24 @@ class MainActivity : AppCompatActivity() {
     private fun isDarkMode(): Boolean {
         val currentNightMode = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK
         return currentNightMode == Configuration.UI_MODE_NIGHT_YES
+    }
+
+    private fun setupBottomNavigation() {
+        binding.bottomNavigation.setOnItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.bottom_home -> replaceFragment(HomeFragment())
+                R.id.bottom_notes -> replaceFragment(NotesFragment())
+                R.id.bottom_lecture -> replaceFragment(LecturesFragment())
+                R.id.bottom_assignment -> replaceFragment(AssignmentFragment())  // Corrected
+                R.id.bottom_test -> replaceFragment(TestFragment())  // Corrected
+            }
+            true
+        }
+    }
+
+    private fun replaceFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .commit()
     }
 }

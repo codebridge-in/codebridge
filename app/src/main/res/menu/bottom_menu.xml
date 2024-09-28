@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/notes"
+        android:id="@+id/bottom_notes"
         android:title="Notes"
         android:icon="@drawable/notes"/>
 
     <item
-        android:id="@+id/lecture"
+        android:id="@+id/bottom_lecture"
         android:title="Lectures"
         android:icon="@drawable/lecture"/>
 
     <item
-        android:id="@+id/home"
+        android:id="@+id/bottom_home"
         android:title="Home"
         android:icon="@drawable/home"/>
 
     <item
-        android:id="@+id/assignment"
+        android:id="@+id/bottom_assignment"
         android:title="Assignments"
         android:icon="@drawable/assignment"/>
 
     <item
-        android:id="@+id/test"
+        android:id="@+id/bottom_test"
         android:title="Tests"
         android:icon="@drawable/test"/>
 </menu>
