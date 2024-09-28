@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
+    <!-- Light Theme -->
+    <style name="Base.Theme.Codebridge" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primaryVariant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryVariant</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
 
-<!-- Light Theme -->
-<style name="Base.Theme.Codebridge" parent="Theme.Material3.DayNight.NoActionBar">
-    <item name="colorPrimary">@color/primary</item>
-    <item name="colorPrimaryContainer">@color/primaryVariant</item>
-    <item name="colorSecondary">@color/secondary</item>
-    <item name="colorSecondaryContainer">@color/secondaryVariant</item>
-    <item name="colorSurface">@color/surface</item>
-    <item name="android:colorBackground">@color/background</item>
-    <item name="android:statusBarColor">@color/primary</item>
-    <item name="android:windowLightStatusBar">false</item>
-</style>
+        <!-- Text Color -->
+        <item name="android:textColor">@color/textColorLight</item> <!-- Black for light mode -->
+    </style>
 
-<!-- Dark Theme -->
-<style name="Base.Theme.Codebridge.Dark" parent="Theme.Material3.DayNight.NoActionBar">
-    <item name="colorPrimary">@color/primaryVariant</item>
-    <item name="colorPrimaryContainer">@color/primary</item>
-    <item name="colorSecondary">@color/secondaryVariant</item>
-    <item name="colorSecondaryContainer">@color/secondary</item>
-    <item name="colorSurface">@color/darkSurface</item>
-    <item name="android:colorBackground">@color/darkBackground</item>
-    <item name="android:statusBarColor">@color/primaryVariant</item>
-    <item name="android:windowLightStatusBar">true</item>
-</style>
+    <!-- Dark Theme -->
+    <style name="Base.Theme.Codebridge.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryVariant</item>
+        <item name="colorPrimaryContainer">@color/primary</item>
+        <item name="colorSecondary">@color/secondaryVariant</item>
+        <item name="colorSecondaryContainer">@color/secondary</item>
+        <item name="colorSurface">@color/darkSurface</item>
+        <item name="android:colorBackground">@color/darkBackground</item>
+        <item name="android:statusBarColor">@color/primaryVariant</item>
+        <item name="android:windowLightStatusBar">true</item>
 
-<!-- Custom Bottom Navigation Indicator -->
-<style name="App.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
-    <item name="android:color">@color/btnlightGray</item>
-</style>
+        <!-- Text Color -->
+        <item name="android:textColor">@color/textColorDark</item> <!-- White for dark mode -->
+    </style>
+    <!-- Custom Bottom Navigation Indicator -->
+    <style name="App.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/btnlightGray</item>
+    </style>
 
-<style name="Theme.Codebridge" parent="Base.Theme.Codebridge" />
-<style name="Theme.Codebridge.Dark" parent="Base.Theme.Codebridge.Dark" />
-
+    <!-- Final Theme Definitions -->
+    <style name="Theme.Codebridge" parent="Base.Theme.Codebridge" />
+    <style name="Theme.Codebridge.Dark" parent="Base.Theme.Codebridge.Dark" />
 </resources>
+

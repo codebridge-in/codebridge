@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColorLight">#FFFFFF</color> <!-- White for light mode -->
+    <color name="textColorDark">#000000</color>  <!-- Black for dark mode -->
+    <!-- Other colors -->
+</resources>
