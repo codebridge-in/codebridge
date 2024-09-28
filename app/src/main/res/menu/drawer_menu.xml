@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_notes"
+        android:title="Notes"
+        android:icon="@drawable/notes"/>
+
+    <item
+        android:id="@+id/bottom_lecture"
+        android:title="Lectures"
+        android:icon="@drawable/lecture"/>
+
+    <item
+        android:id="@+id/bottom_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <group>
+        <item
+            android:id="@+id/bottom_help"
+            android:title="Help &amp; Support"
+            android:icon="@drawable/help"/>
+
+        <item
+            android:id="@+id/drawer_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+    </group>
+
+</menu>

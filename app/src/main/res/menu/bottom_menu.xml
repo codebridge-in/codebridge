@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
+        android:id="@+id/bottom_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
         android:id="@+id/bottom_notes"
         android:title="Notes"
         android:icon="@drawable/notes"/>
@@ -10,10 +14,6 @@
         android:title="Lectures"
         android:icon="@drawable/lecture"/>
 
-    <item
-        android:id="@+id/bottom_home"
-        android:title="Home"
-        android:icon="@drawable/home"/>
 
     <item
         android:id="@+id/bottom_assignment"
