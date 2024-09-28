@@ -52,10 +52,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-//Re add these implementation if got error //
     implementation(libs.firebase.auth)
     implementation (libs.firebase.firestore)
     implementation (libs.firebase.storage)
     implementation (libs.firebase.database)
-    implementation (libs.material.v190) 
+    implementation (libs.material.v190)
+
+    implementation ("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
 }

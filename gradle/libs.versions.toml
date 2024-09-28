@@ -1,5 +1,6 @@
 [versions]
 agp = "8.5.2"
+core = "12.1.1"
 firebaseFirestore = "25.1.0"
 firebaseStorage = "21.0.0"
 kotlin = "1.9.0"
@@ -18,9 +19,11 @@ lifecycleViewmodelKtx = "2.8.5"
 materialVersion = "1.9.0"
 navigationFragmentKtx = "2.8.0"
 navigationUiKtx = "2.8.0"
+youtubeAndroidPlayerApi = "1.2.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+core = { module = "com.pierfrancescosoffritti.androidyoutubeplayer:core", version.ref = "core" }
 firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseStorage" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
 firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
@@ -37,6 +40,7 @@ androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifec
 androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 material-v190 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+youtube-android-player-api = { module = "com.google.android.youtube:youtube-android-player-api", version.ref = "youtubeAndroidPlayerApi" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
