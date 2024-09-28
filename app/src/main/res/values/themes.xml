@@ -8,7 +8,7 @@
         <item name="colorSecondaryContainer">@color/secondaryVariant</item>
         <item name="colorSurface">@color/surface</item>
         <item name="android:colorBackground">@color/background</item>
-        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item> <!-- Set status bar color for light mode -->
         <item name="android:windowLightStatusBar">false</item>
 
         <!-- Text Color -->
@@ -23,12 +23,13 @@
         <item name="colorSecondaryContainer">@color/secondary</item>
         <item name="colorSurface">@color/darkSurface</item>
         <item name="android:colorBackground">@color/darkBackground</item>
-        <item name="android:statusBarColor">@color/primaryVariant</item>
+        <item name="android:statusBarColor">@color/primaryVariant</item> <!-- Set status bar color for dark mode -->
         <item name="android:windowLightStatusBar">true</item>
 
         <!-- Text Color -->
         <item name="android:textColor">@color/whiteInDark</item> <!-- White for dark mode -->
     </style>
+
     <!-- Custom Bottom Navigation Indicator -->
     <style name="App.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/btnlightGray</item>

@@ -11,7 +11,7 @@
 
     <!-- Primary colors -->
     <color name="primary">#A41034</color>
-    <color name="primaryVariant">#8B0F2B</color>
+    <color name="primaryVariant">#A41034</color>
 
     <!-- Secondary colors -->
     <color name="secondary">#F5F5DC</color>
@@ -32,4 +32,5 @@
     <color name="background">#F5F5F5</color> <!-- Light mode background -->
     <color name="darkSurface">#000000</color> <!-- Dark mode surface -->
     <color name="darkBackground">#121212</color> <!-- Dark mode background -->
+
 </resources>
