@@ -2,29 +2,33 @@
 <resources>
     <!-- Core colors -->
     <color name="transparent">#00FFFFFF</color>
-    <color name="black">#FF000000</color> <!-- Text color in light mode -->
-    <color name="white">#FFFFFFFF</color> <!-- Background color in light mode -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 
     <!-- Primary colors -->
-    <color name="primary">#A41034</color> <!-- Main primary color -->
-    <color name="primaryVariant">#8B0F2B</color> <!-- Darker variant for primary color -->
+    <color name="primary">#A41034</color>
+    <color name="primaryVariant">#8B0F2B</color>
 
     <!-- Secondary colors -->
-    <color name="secondary">#F5F5DC</color> <!-- Secondary color -->
-    <color name="secondaryVariant">#E5E5C3</color> <!-- Slightly darker secondary color -->
+    <color name="secondary">#F5F5DC</color>
+    <color name="secondaryVariant">#E5E5C3</color>
 
     <!-- Grays -->
-    <color name="gray">#989898</color> <!-- General gray -->
-    <color name="darkGray">#606060</color> <!-- Dark gray for contrast -->
-    <color name="lightGray">#D3D3D3</color> <!-- Light gray for backgrounds -->
+    <color name="gray">#989898</color>
+    <color name="darkGray">#606060</color>
+    <color name="lightGray">#D3D3D3</color>
     <color name="btnlightGray">#41FFFFFF</color>
 
     <!-- Accent colors -->
-    <color name="accent">#FF4081</color> <!-- An accent color for buttons or highlights -->
-    <color name="error">#B00020</color> <!-- Color for error messages or indicators -->
+    <color name="accent">#FF4081</color>
+    <color name="error">#B00020</color>
 
     <!-- Surface and Background colors -->
-    <color name="surface">#FFFFFF</color> <!-- Surface color for light mode -->
-    <color name="background">#F5F5F5</color> <!-- General background color for light mode -->
-    <color name="activeIndicatorColor">#FF4081</color> <!-- Active indicator color -->
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F5F5F5</color>
+    <color name="activeIndicatorColor">#FF4081</color>
+
+    <!-- Dark Mode -->
+    <color name="darkSurface">#000000</color>
+    <color name="darkBackground">#121212</color>
 </resources>

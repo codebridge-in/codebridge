@@ -1,25 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Base theme for dark mode -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
     <style name="Base.Theme.Codebridge" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary colors -->
-        <item name="colorPrimary">@color/primaryVariant</item>
-        <item name="colorPrimaryContainer">@color/primary</item>
-
-        <!-- Secondary colors -->
-        <item name="colorSecondary">@color/secondaryVariant</item>
-        <item name="colorSecondaryContainer">@color/secondary</item>
-
-        <!-- Surface and background colors -->
-        <item name="colorSurface">@color/surface</item>
-        <item name="android:colorBackground">@color/background</item>
-        <item name="android:statusBarColor">@color/primaryVariant</item>
-        <item name="android:windowLightStatusBar">true</item> <!-- Dark icons in status bar -->
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
-
-    <style name="App.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
-        <item name="android:color">@color/btnlightGray</item>
-    </style>
-
-    <style name="Theme.Codebridge" parent="Base.Theme.Codebridge" />
 </resources>
