@@ -12,7 +12,7 @@
         <item name="android:windowLightStatusBar">false</item>
 
         <!-- Text Color -->
-        <item name="android:textColor">@color/textColorLight</item> <!-- Black for light mode -->
+        <item name="android:textColor">@color/blackInLight</item> <!-- Black for light mode -->
     </style>
 
     <!-- Dark Theme -->
@@ -27,7 +27,7 @@
         <item name="android:windowLightStatusBar">true</item>
 
         <!-- Text Color -->
-        <item name="android:textColor">@color/textColorDark</item> <!-- White for dark mode -->
+        <item name="android:textColor">@color/whiteInDark</item> <!-- White for dark mode -->
     </style>
     <!-- Custom Bottom Navigation Indicator -->
     <style name="App.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">

@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Core colors -->
     <color name="transparent">#00FFFFFF</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Light Mode Colors -->
+    <color name="blackInLight">#FFFFFFFF</color>  <!-- Black for light mode -->
+    <color name="whiteInDark">#FF000000</color> <!-- White for dark mode -->
 
     <!-- Primary colors -->
     <color name="primary">#A41034</color>
@@ -25,12 +30,6 @@
     <!-- Surface and Background colors -->
     <color name="surface">#FFFFFF</color> <!-- Light mode surface -->
     <color name="background">#F5F5F5</color> <!-- Light mode background -->
-
-    <!-- Dark Mode -->
     <color name="darkSurface">#000000</color> <!-- Dark mode surface -->
     <color name="darkBackground">#121212</color> <!-- Dark mode background -->
-
-    <!-- Custom Text Colors -->
-    <color name="textColorLight">#FF000000</color> <!-- Black for light mode -->
-    <color name="textColorDark">#FFFFFFFF</color> <!-- White for dark mode -->
 </resources>
