@@ -1,6 +1,7 @@
 [versions]
 agp = "8.5.2"
 core = "12.1.1"
+coreVersion = "12.1.0"
 firebaseFirestore = "25.1.0"
 firebaseStorage = "21.0.0"
 kotlin = "1.9.0"
@@ -24,6 +25,7 @@ youtubeAndroidPlayerApi = "1.2.2"
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 core = { module = "com.pierfrancescosoffritti.androidyoutubeplayer:core", version.ref = "core" }
+core-v1210 = { module = "com.pierfrancescosoffritti.androidyoutubeplayer:core", version.ref = "coreVersion" }
 firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseStorage" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
 firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }

@@ -1,4 +1,4 @@
-package com.codebridge.main
+package com.codebridge
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -9,7 +9,6 @@ import androidx.core.view.GravityCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
-import com.codebridge.R
 import com.codebridge.databinding.ActivityMainBinding
 import com.codebridge.fragments.AssignmentFragment
 import com.codebridge.fragments.HomeFragment

@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.codebridge"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.codebridge"
-        minSdk = 24
-        targetSdk = 34
+        minSdk = 23
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -57,6 +57,5 @@ dependencies {
     implementation (libs.firebase.storage)
     implementation (libs.firebase.database)
     implementation (libs.material.v190)
-
-    implementation ("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
+    implementation (libs.core.v1210)
 }
