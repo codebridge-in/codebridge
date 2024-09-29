@@ -57,5 +57,6 @@ dependencies {
     implementation (libs.firebase.storage)
     implementation (libs.firebase.database)
     implementation (libs.material.v190)
-    implementation (libs.core.v1210)
+    implementation (libs.core)
+    implementation (libs.custom.ui)
 }
