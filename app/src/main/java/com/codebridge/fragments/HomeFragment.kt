@@ -21,17 +21,17 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
 
-        val youTubePlayerView: YouTubePlayerView = binding.youtubePlayerView
-
-
-        lifecycle.addObserver(youTubePlayerView)
-
-        youTubePlayerView.addYouTubePlayerListener(object : AbstractYouTubePlayerListener() {
-            override fun onReady(youTubePlayer: YouTubePlayer) {
-                val videoId = "yP9KiFTyBks"
-                youTubePlayer.loadVideo(videoId, 0f)
-            }
-        })
+//        val youTubePlayerView: YouTubePlayerView = binding.youtubePlayerView
+//
+//
+//        lifecycle.addObserver(youTubePlayerView)
+//
+//        youTubePlayerView.addYouTubePlayerListener(object : AbstractYouTubePlayerListener() {
+//            override fun onReady(youTubePlayer: YouTubePlayer) {
+//                val videoId = "yP9KiFTyBks"
+//                youTubePlayer.loadVideo(videoId, 0f)
+//            }
+//        })
 
         return binding.root
     }
