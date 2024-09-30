@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.codebridge"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.codebridge"
-        minSdk = 23
-        targetSdk = 33
+        minSdk = 24
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -57,5 +57,6 @@ dependencies {
     implementation (libs.firebase.storage)
     implementation (libs.firebase.database)
     implementation (libs.material.v190)
-    implementation (libs.core.v1210)
+    implementation (libs.core)
+    implementation (libs.custom.ui)
 }
