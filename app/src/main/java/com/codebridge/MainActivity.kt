@@ -38,9 +38,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateStatusBarColor() {
         val color = if (isDarkMode()) {
-            ContextCompat.getColor(this, R.color.primaryVariant) // Dark mode color
+            ContextCompat.getColor(this, R.color.primaryVariant)
         } else {
-            ContextCompat.getColor(this, R.color.primary) // Light mode color
+            ContextCompat.getColor(this, R.color.primary)
         }
         window.statusBarColor = color
     }
@@ -61,18 +61,22 @@ class MainActivity : AppCompatActivity() {
             binding.drawerLayout.openDrawer(GravityCompat.START)
         }
     }
+
+
     private fun setupBottomNavigation() {
         binding.bottomNavigation.setOnItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.bottom_home -> replaceFragment(HomeFragment())
                 R.id.bottom_notes -> replaceFragment(NotesFragment())
                 R.id.bottom_lecture -> replaceFragment(LecturesFragment())
-                R.id.bottom_assignment -> replaceFragment(AssignmentFragment())  // Corrected
-                R.id.bottom_test -> replaceFragment(TestFragment())  // Corrected
+                R.id.bottom_assignment -> replaceFragment(AssignmentFragment())
+                R.id.bottom_test -> replaceFragment(TestFragment())
             }
             true
         }
     }
+
+
 
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
